@@ -116,7 +116,7 @@ function drawEnd(won) {
         background("#66FF66");
         fill("#FFFFFF");
         textSize(60);
-        text("СУКА!", width / 2, height / 2 - 75);
+        text("Победа!", width / 2, height / 2 - 75);
         fill("#000000");
         textSize(50);
         text(getTime(), width / 2 , height/ 2);
