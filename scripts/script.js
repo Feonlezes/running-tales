@@ -116,19 +116,19 @@ function drawEnd(won) {
         background("#66FF66");
         fill("#FFFFFF");
         textSize(60);
-        text("Complete!", width / 2, height / 2 - 75);
+        text("Сделано!", width / 2, height / 2 - 75);
         fill("#000000");
         textSize(50);
         text(getTime(), width / 2 , height/ 2);
         fill("FFFFFF");
         textSize(30);
-        text("Press R to restart!", width / 2, height / 2 + 50);
+        text("Нажмите R для старта!", width / 2, height / 2 + 50);
     } else {
         fill("#FF0000");
         textSize(60);
-        text("Game Over!", width / 2, height / 2);
+        text("Конец игры!", width / 2, height / 2);
         textSize(30);
-        text("Press R to restart!", width / 2, height / 2 + 50);
+        text("Нажмите R для старта!", width / 2, height / 2 + 50);
     }
 }
 
